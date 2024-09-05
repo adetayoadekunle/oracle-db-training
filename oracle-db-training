@@ -1,0 +1,166 @@
+DFo_1_2_Practice:
+Question 1:
+1. Health Information
+2. Grades
+3. Home Adresss
+4. Student/Parent Contact Information. 
+Question 2:
+1. Customer ID's
+2. BOOK ID'S (Information)
+3. Checkout and Checkin Information
+DFo_1_3_Practice:
+Question 1:
+a. Hierarchial Model
+b. Netowrk Model
+c. Object-Oriented Model
+d. Relational Model.
+e. Flat File Model
+DFo_1_4_Practice:
+1. Buisiness rule - Members having to pay membership fees
+Constraint - Members can belong to one of the memberships (Corporate, Student, Individual)
+Business rule - Student membership is free. Corporate and individual have to pay a fee.
+Constraint - Membership cannot change until justification is provided
+2. Business rule - Doctor registered with hospital assigned a Unique ID with "DC"
+Constraint - Doctors are not registered with the hospital that do not have unique ID of "DC"
+Buisiness rule - Doctors registered with hospital require 7 years of working experience
+Constraint - Doctors are not registered to hospital who do not have 7 years of working experience
+Business rule - Patients required to register on first visit
+Constraint - Patients not allowed on first visit if they do not register to the hospital
+DFo_2_1_Practice (HAD TROUBLE WITH UNDERSTANDING THIS PROCESS):
+1.
+a. Book_ID 
+  Title
+  ISBN
+  Year
+  Price
+  Author_ID
+  Publisher_ID
+b. Author_ID
+  Name
+  Address
+  URL_Homepage
+c. Publisher_ID
+  Name
+  Address
+  Phone_Number
+  Url_Website
+d. Warehouse_ID
+  Code
+  Address
+  Phone_Number
+e.Book_ID
+Warehouse_ID
+
+f. Book_ID
+  Warehouse_ID
+  Stocked_Copies 
+g. Customer_ID
+  Name
+  Address
+  Email_ID
+  Phone_Number
+h. Shopping_Cart_ID
+  Customer_ID
+i. Shopping_Cart_ID
+  Book_ID
+  Quantity
+  Order_ID
+
+j. Order_ID
+   Customer_id
+  Billing_Address
+  Shipping_Address
+  Shipping_Option
+  Payment_Information (Credit Card)
+  Order_Date
+  Notification_ID
+  Order_ID
+  Email_Sent
+2.  A. CustomeriD
+      Name
+      Phone Number
+      Address
+      Email
+    OrderID
+    ProductID
+    Name
+    Price
+    Quantity
+    SupplierID
+    Name
+    Phone number
+    Reoreder Number
+  B. InvoiceId
+      OrderID
+      Date
+  BackorderID
+    Order
+    ProduuctID
+  ReorderID
+  ProductId
+  SupplierId
+  Quantity
+  C. PaymentID
+    CustomerID
+    InvoiceID
+    Inovice
+    Part_Inovice
+D.  Customers placing orders
+    Orders from Product
+    Product from Suppliers
+    Backorder leads to order and Product
+    Invoice from payments (confused on this)
+DFo_2_2_:
+1. Helps identifiy important entitites.
+ Can help look at future needs.
+ Looks at informational requirements of a business.
+ Helps recognize relationships between important entities.
+ Can be based on current needs.
+2.  conceptual model example - Library database showing how the book and author relate
+    conceputal model example -  Buisiness market showing how sales and marketing relate
+    physical model example - looking at a building through a scale model
+    physical model example -  looking at a scale model of a car
+Dfo_2_3_:
+1. 
+a.DeparmentID
+  b.Course
+  CourseID
+  Coursename
+  FacultyID
+ c. StudentID
+    Name
+    Enroll Courses
+  d. ParentID
+    Parent InFORMATION
+  e. AttendanceID
+     ELIGIBILITY
+    f. EXAMID
+    resilts
+G. LogID
+Falculuty
+  Login
+  Logout
+2. Course - Data science
+Department - Applied health informatics
+Student - John Smitb
+Faculty - Professor Williams
+Academic Session - Fall 2024
+Parent Information - Jean Smith
+Exam - Data science exam.  
+DFO_2_4:
+1. By using a unique idenitifier. Something like a song title can be a unique identifier.
+2. By their information they are issued by the school, school ID.
+3. Student ID, Title, Number
+Exercise 2:
+Unique identifiers: Student ID, movie title, locker number
+Canidate unique identifiers -  email, director, location
+Dfo_2_5_Practice:
+1. b.
+2. Each person must be born in one or more town, each town may be the birthplace of one person?
+exercise 2:
+Could not understand the drawing
+Dfo_2_6_ - DFo_3_4Practice (I could not understand these assignments).
+
+
+
+
